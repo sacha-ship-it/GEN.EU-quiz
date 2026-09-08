@@ -178,8 +178,8 @@ client.on('interactionCreate', async interaction => {
 
       await channel.send({
         embeds: [new EmbedBuilder()
-          .setTitle('🧠 QUIZ RENTRÉE ÉTUDIANTE — GEN.EU FRANCE')
-          .setDescription('Le quiz sur la rentrée étudiante est disponible !\n\n🔒 Les questions sont privées — personne ne voit tes réponses.\n\nClique sur le bouton ci-dessous pour commencer 👇\n\n⏱️ Tu as 15 secondes par question.')
+          .setTitle('🧠 QUIZ RENTRÉE ÉTUDIANTE - GEN.EU FRANCE')
+          .setDescription('Le quiz sur la rentrée étudiante est disponible !\n\n🔒 Les questions sont privées, personne ne voit tes réponses.\n\nClique sur le bouton ci-dessous pour commencer 👇\n\n⏱️ Tu as 15 secondes par question.')
           .setColor('#3498DB')
           .setFooter({ text: 'Gen.EU France' })],
         components: [row]
