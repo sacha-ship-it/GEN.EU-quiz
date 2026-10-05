@@ -1,52 +1,102 @@
 module.exports = [
   {
-    question: "Quelle est la principale mission du CIDJ ?",
-    choices: ["A - Aider les jeunes à trouver un emploi", "B - Informer et orienter les jeunes sur tous les sujets qui les concernent", "C - Gérer les bourses étudiantes", "D - Organiser les concours d'entrée aux grandes écoles"],
+    question: "Tu as des restes du dîner. Quel réflexe évite le gaspillage ?",
+    choices: [
+      "A - Les laisser sur la table jusqu'au lendemain",
+      "B - Les jeter pour cuisiner quelque chose de frais",
+      "C - Les conserver rapidement au frais pour un prochain repas",
+      "D - Les mettre au frigo uniquement si leur odeur change"
+    ],
+    answer: "C"
+  },
+  {
+    question: "Pour un trajet de 10 minutes à pied, quel choix pollue le moins ?",
+    choices: [
+      "A - Prendre la voiture",
+      "B - Marcher ou prendre son vélo",
+      "C - Commander un VTC",
+      "D - Prendre un scooter thermique"
+    ],
     answer: "B"
   },
   {
-    question: "En France, à partir de quel moment peut-on bénéficier d'une bourse sur critères sociaux ?",
-    choices: ["A - À partir de 16 ans", "B - À partir de 18 ans", "C - À partir de 20 ans", "D - Dès l'entrée dans l'enseignement supérieur"],
-    answer: "D"
-  },
-  {
-    question: "Qu'est-ce que le statut étudiant-entrepreneur ?",
-    choices: ["A - Un statut pour créer une entreprise tout en étudiant", "B - Un statut réservé aux étudiants en BTS", "C - Un programme d'échange européen", "D - Une aide financière pour les étudiants en alternance"],
+    question: "Ton téléphone fonctionne encore, mais un nouveau modèle vient de sortir. Quel choix évite de consommer des ressources pour rien ?",
+    choices: [
+      "A - Garder ton téléphone tant qu'il répond à tes besoins",
+      "B - Acheter le nouveau et laisser l'ancien dans un tiroir",
+      "C - Changer de téléphone chaque année",
+      "D - Acheter deux modèles pour pouvoir alterner"
+    ],
     answer: "A"
   },
   {
-    question: "Combien de pays participent au programme Erasmus+ ?",
-    choices: ["A - 27", "B - 33", "C - 40", "D - 53"],
+    question: "Tu veux acheter un vêtement que tu ne porteras peut-être qu'une fois. Que peux-tu faire avant de l'acheter neuf ?",
+    choices: [
+      "A - En commander plusieurs pour avoir le choix",
+      "B - Choisir celui qui a le plus d'emballage",
+      "C - L'acheter dès qu'il est en promotion",
+      "D - Regarder si tu peux l'emprunter ou le trouver d'occasion"
+    ],
+    answer: "D"
+  },
+  {
+    question: "Pour économiser de l'eau sous la douche, quel geste est utile ?",
+    choices: [
+      "A - Laisser couler l'eau pendant que tu te savonnes",
+      "B - Raccourcir la douche et couper l'eau pendant le savonnage",
+      "C - Ouvrir davantage le robinet pour aller plus vite",
+      "D - Prendre un bain après chaque douche"
+    ],
+    answer: "B"
+  },
+  {
+    question: "Avant de faire les courses, quel réflexe aide à acheter juste ce qu'il faut ?",
+    choices: [
+      "A - Vérifier le frigo et préparer une liste",
+      "B - Acheter systématiquement les plus gros formats",
+      "C - Prendre tous les produits en promotion",
+      "D - Racheter les mêmes aliments sans regarder ce qu'il reste"
+    ],
+    answer: "A"
+  },
+  {
+    question: "Tu veux réduire l'impact de tes repas sans tout changer. Quelle habitude peux-tu adopter ?",
+    choices: [
+      "A - Ajouter du bœuf à chaque repas",
+      "B - Remplacer tous les produits frais par des portions emballées",
+      "C - Remplacer régulièrement un repas à base de viande par un repas avec des lentilles ou des pois chiches",
+      "D - Commander davantage de nourriture que tu ne peux en manger"
+    ],
     answer: "C"
   },
   {
-    question: "Quelle plateforme centralise toutes les candidatures dans l'enseignement supérieur en France ?",
-    choices: ["A - Campus France", "B - Parcoursup", "C - Mon Master", "D - France Connect"],
+    question: "Tu lances une machine à laver. Quel réflexe évite les lavages inutiles ?",
+    choices: [
+      "A - Laver chaque vêtement séparément",
+      "B - Relaver le linge propre avant de le ranger",
+      "C - Lancer systématiquement deux cycles",
+      "D - Attendre d'avoir une charge suffisante, sans surcharger le tambour"
+    ],
+    answer: "D"
+  },
+  {
+    question: "Une chaise est abîmée, mais elle pourrait être réparée. Que faire avant de la remplacer ?",
+    choices: [
+      "A - La mettre dans la poubelle de tri",
+      "B - Vérifier si tu peux la réparer ou la faire réparer",
+      "C - Acheter immédiatement une chaise neuve",
+      "D - La laisser dans la rue sans vérifier les règles de collecte"
+    ],
     answer: "B"
   },
   {
-    question: "Qu'est-ce qu'une UE dans un cursus universitaire ?",
-    choices: ["A - Une unité de cours", "B - Une unité de compétence", "C - Une unité d'enseignement", "D - Une unité de contrôle"],
-    answer: "C"
-  },
-  {
-    question: "L'intelligence artificielle peut-elle remplacer complètement l'apprentissage selon les experts ?",
-    choices: ["A - Oui, elle est plus efficace que les profs", "B - Non, elle est un outil complémentaire", "C - Oui, mais uniquement en maths", "D - Non, elle est trop limitée"],
-    answer: "B"
-  },
-  {
-    question: "Quelle est la durée d'un cursus de licence en France ?",
-    choices: ["A - 2 ans", "B - 3 ans", "C - 4 ans", "D - 5 ans"],
-    answer: "B"
-  },
-  {
-    question: "Qu'est-ce que l'alternance ?",
-    choices: ["A - Un programme d'échange entre universités", "B - Un cursus qui alterne entre cours et expérience en entreprise", "C - Un système de bourses pour les étudiants", "D - Un contrat réservé aux étudiants en master"],
-    answer: "B"
-  },
-  {
-    question: "Quel organisme gère le logement étudiant en France ?",
-    choices: ["A - CAF", "B - CROUS", "C - CIDJ", "D - ANEF"],
-    answer: "B"
+    question: "Tu ne sais pas dans quelle poubelle mettre un emballage. Quel est le bon réflexe ?",
+    choices: [
+      "A - Vérifier les consignes de tri de ta commune ou l'info-tri sur l'emballage",
+      "B - Le mettre au hasard dans un bac",
+      "C - Mettre tous les déchets dans le bac à verre",
+      "D - Supposer que tous les objets en plastique vont au tri"
+    ],
+    answer: "A"
   }
-]
+];
