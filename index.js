@@ -465,7 +465,7 @@ client.on(Events.InteractionCreate, async interaction => {
           embeds: [
             new EmbedBuilder()
               .setTitle(
-                "🧠 QUIZ QUELLE PLACE POUR L'ÉCOLOGIE DANS TON QUOTIDIEN - GEN.EU FRANCE"
+                "🧠 QUIZ - GEN.EU FRANCE"
               )
               .setDescription(
                 "Le quiz sur l'écologie dans ton quotidien est disponible !\n\n" +
