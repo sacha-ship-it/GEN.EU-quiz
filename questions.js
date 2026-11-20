@@ -1,102 +1,106 @@
+'use strict';
+
+// Quiz GEN.EU : les réflexes de fact-checking.
+// Inspiré des thèmes du live annoncé avec Aude Favre, sans en reproduire les échanges.
 module.exports = [
   {
-    question: "Tu as des restes du dîner. Quel réflexe évite le gaspillage ?",
-    choices: [
-      "A - Les laisser sur la table jusqu'au lendemain",
-      "B - Les jeter pour cuisiner quelque chose de frais",
-      "C - Les conserver rapidement au frais pour un prochain repas",
-      "D - Les mettre au frigo uniquement si leur odeur change"
+    "question": "Une vidéo spectaculaire circule avec la légende « Ça vient d'arriver ». Quel est le meilleur premier réflexe ?",
+    "choices": [
+      "A. La partager avant qu'elle disparaisse",
+      "B. Chercher son origine, sa date et son lieu",
+      "C. Vérifier seulement le nombre de vues",
+      "D. Lire uniquement les commentaires"
     ],
-    answer: "C"
+    "answer": "B"
   },
   {
-    question: "Pour un trajet de 10 minutes à pied, quel choix pollue le moins ?",
-    choices: [
-      "A - Prendre la voiture",
-      "B - Marcher ou prendre son vélo",
-      "C - Commander un VTC",
-      "D - Prendre un scooter thermique"
+    "question": "À quoi sert une recherche inversée d'image ?",
+    "choices": [
+      "A. À garantir qu'une photo n'a pas été retouchée",
+      "B. À identifier automatiquement toutes les personnes",
+      "C. À savoir combien de personnes croient à la publication",
+      "D. À retrouver d'autres apparitions de l'image et son contexte"
     ],
-    answer: "B"
+    "answer": "D"
   },
   {
-    question: "Ton téléphone fonctionne encore, mais un nouveau modèle vient de sortir. Quel choix évite de consommer des ressources pour rien ?",
-    choices: [
-      "A - Garder ton téléphone tant qu'il répond à tes besoins",
-      "B - Acheter le nouveau et laisser l'ancien dans un tiroir",
-      "C - Changer de téléphone chaque année",
-      "D - Acheter deux modèles pour pouvoir alterner"
+    "question": "Une photo est authentique, mais elle date de 2018 et accompagne une publication sur un événement de cette semaine. Que peut-on en conclure ?",
+    "choices": [
+      "A. Une vraie photo peut servir à présenter une information trompeuse",
+      "B. Une photo authentique rend forcément la publication fiable",
+      "C. Une image ancienne ne peut jamais être réutilisée",
+      "D. La date n'a aucune importance"
     ],
-    answer: "A"
+    "answer": "A"
   },
   {
-    question: "Tu veux acheter un vêtement que tu ne porteras peut-être qu'une fois. Que peux-tu faire avant de l'acheter neuf ?",
-    choices: [
-      "A - En commander plusieurs pour avoir le choix",
-      "B - Choisir celui qui a le plus d'emballage",
-      "C - L'acheter dès qu'il est en promotion",
-      "D - Regarder si tu peux l'emprunter ou le trouver d'occasion"
+    "question": "Une capture d'écran attribue une déclaration à une personnalité. Comment la vérifier ?",
+    "choices": [
+      "A. Se fier au logo du média sur la capture",
+      "B. Compter les réactions sous le post",
+      "C. Retrouver l'interview, la vidéo ou la publication d'origine",
+      "D. Regarder si la phrase semble lui ressembler"
     ],
-    answer: "D"
+    "answer": "C"
   },
   {
-    question: "Pour économiser de l'eau sous la douche, quel geste est utile ?",
-    choices: [
-      "A - Laisser couler l'eau pendant que tu te savonnes",
-      "B - Raccourcir la douche et couper l'eau pendant le savonnage",
-      "C - Ouvrir davantage le robinet pour aller plus vite",
-      "D - Prendre un bain après chaque douche"
+    "question": "Un titre affirme : « Le nombre de cas a doublé ! ». Il passe en réalité de 2 à 4. Quelle lecture est correcte ?",
+    "choices": [
+      "A. Le nombre de cas a augmenté de 2 %",
+      "B. Il a augmenté de 100 %, mais cela représente 2 cas supplémentaires",
+      "C. Le nombre de cas a augmenté de 200 %",
+      "D. Le titre permet à lui seul de mesurer la gravité de la situation"
     ],
-    answer: "B"
+    "answer": "B"
   },
   {
-    question: "Avant de faire les courses, quel réflexe aide à acheter juste ce qu'il faut ?",
-    choices: [
-      "A - Vérifier le frigo et préparer une liste",
-      "B - Acheter systématiquement les plus gros formats",
-      "C - Prendre tous les produits en promotion",
-      "D - Racheter les mêmes aliments sans regarder ce qu'il reste"
+    "question": "Une information apparaît sur dix sites différents. Est-ce suffisant pour la confirmer ?",
+    "choices": [
+      "A. Oui, dix sites ne peuvent pas se tromper",
+      "B. Oui, si leurs titres sont différents",
+      "C. Non, ils peuvent tous reprendre la même source non vérifiée",
+      "D. Non, une information publiée sur plusieurs sites est forcément fausse"
     ],
-    answer: "A"
+    "answer": "C"
   },
   {
-    question: "Tu veux réduire l'impact de tes repas sans tout changer. Quelle habitude peux-tu adopter ?",
-    choices: [
-      "A - Ajouter du bœuf à chaque repas",
-      "B - Remplacer tous les produits frais par des portions emballées",
-      "C - Remplacer régulièrement un repas à base de viande par un repas avec des lentilles ou des pois chiches",
-      "D - Commander davantage de nourriture que tu ne peux en manger"
+    "question": "Un compte vérifié partage une information. Qu'est-ce que son badge permet de conclure ?",
+    "choices": [
+      "A. Le badge ne garantit pas que cette information est exacte",
+      "B. Toutes ses publications ont été vérifiées par des journalistes",
+      "C. Le compte ne peut pas partager une image détournée",
+      "D. Il n'est plus nécessaire de vérifier ses sources"
     ],
-    answer: "C"
+    "answer": "A"
   },
   {
-    question: "Tu lances une machine à laver. Quel réflexe évite les lavages inutiles ?",
-    choices: [
-      "A - Laver chaque vêtement séparément",
-      "B - Relaver le linge propre avant de le ranger",
-      "C - Lancer systématiquement deux cycles",
-      "D - Attendre d'avoir une charge suffisante, sans surcharger le tambour"
+    "question": "Un extrait de dix secondes semble montrer une personne disant le contraire de sa position habituelle. Que faire ?",
+    "choices": [
+      "A. Conclure immédiatement qu'elle ment",
+      "B. Vérifier seulement si sa voix est reconnaissable",
+      "C. Se fier au commentaire le plus aimé",
+      "D. Chercher la séquence complète et ce qui précède et suit l'extrait"
     ],
-    answer: "D"
+    "answer": "D"
   },
   {
-    question: "Une chaise est abîmée, mais elle pourrait être réparée. Que faire avant de la remplacer ?",
-    choices: [
-      "A - La mettre dans la poubelle de tri",
-      "B - Vérifier si tu peux la réparer ou la faire réparer",
-      "C - Acheter immédiatement une chaise neuve",
-      "D - La laisser dans la rue sans vérifier les règles de collecte"
+    "question": "Tu as des doutes sur une image qui pourrait avoir été générée par IA. Quelle méthode est la plus solide ?",
+    "choices": [
+      "A. Chercher uniquement des mains mal dessinées",
+      "B. Faire confiance à un détecteur d'IA sans autre vérification",
+      "C. Croiser son origine, son contexte et d'autres éléments vérifiables",
+      "D. Considérer qu'une image réaliste est forcément une photo"
     ],
-    answer: "B"
+    "answer": "C"
   },
   {
-    question: "Tu ne sais pas dans quelle poubelle mettre un emballage. Quel est le bon réflexe ?",
-    choices: [
-      "A - Vérifier les consignes de tri de ta commune ou l'info-tri sur l'emballage",
-      "B - Le mettre au hasard dans un bac",
-      "C - Mettre tous les déchets dans le bac à verre",
-      "D - Supposer que tous les objets en plastique vont au tri"
+    "question": "Après plusieurs recherches, tu ne trouves pas de preuve suffisante pour confirmer ou réfuter un post. Que faire ?",
+    "choices": [
+      "A. Le déclarer faux parce qu'il reste un doute",
+      "B. Dire qu'il n'est pas vérifié et éviter de le relayer comme un fait",
+      "C. Le partager en ajoutant seulement un point d'interrogation",
+      "D. Choisir la version qui correspond le mieux à ton opinion"
     ],
-    answer: "A"
+    "answer": "B"
   }
 ];
